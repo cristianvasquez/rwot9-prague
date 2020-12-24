@@ -1,0 +1,5 @@
+pandoc -f markdown -t html5 -o "alice-attempts-abuse-verifiable-credential.html" "alice-attempts-abuse-verifiable-credential.md" -c "style.css"
+pandoc -f markdown -t html5 -o "BlockcertsV3.html" "BlockcertsV3.md" -c "style.css"
+pandoc -f markdown -t html5 -o "CooperationBeatsAggregation.html" "CooperationBeatsAggregation.md" -c "style.css"
+pandoc -f markdown -t html5 -o "encrypted-data-vaults.html" "encrypted-data-vaults.md" -c "style.css"
+pandoc -f markdown -t html5 -o "reputation-interpretation.html" "reputation-interpretation.md" -c "style.css"
