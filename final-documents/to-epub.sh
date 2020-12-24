@@ -1,0 +1,5 @@
+pandoc -f markdown -t epub alice-attempts-abuse-verifiable-credential.md -o alice-attempts-abuse-verifiable-credential.epub --css=pandoc.css --self-contained --metadata pagetitle="alice-attempts-abuse-verifiable-credential"
+pandoc -f markdown -t epub BlockcertsV3.md -o BlockcertsV3.epub --css=pandoc.css --self-contained --metadata pagetitle="BlockcertsV3"
+pandoc -f markdown -t epub CooperationBeatsAggregation.md -o CooperationBeatsAggregation.epub --css=pandoc.css --self-contained --metadata pagetitle="CooperationBeatsAggregation"
+pandoc -f markdown -t epub encrypted-data-vaults.md -o encrypted-data-vaults.epub --css=pandoc.css --self-contained --metadata pagetitle="encrypted-data-vaults"
+pandoc -f markdown -t epub reputation-interpretation.md -o reputation-interpretation.epub --css=pandoc.css --self-contained --metadata pagetitle="reputation-interpretation"
